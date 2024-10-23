@@ -8,12 +8,11 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/progressPercentText"
+        android:id="@+id/workProgressText"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="0%"
-        android:textAlignment="center"
-        android:textSize="40sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@id/enqueueWorkBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
