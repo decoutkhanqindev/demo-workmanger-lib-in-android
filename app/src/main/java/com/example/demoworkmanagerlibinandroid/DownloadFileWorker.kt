@@ -37,5 +37,6 @@ class DownloadFileWorker(appContext: Context, params: WorkerParameters) :
     const val KEY_FILE_URL = "KEY_FILE_URL"
     const val KEY_PROGRESS = "KEY_PROGRESS"
     const val KEY_LOCAL_URL = "KEY_LOCAL_URL"
+    const val WORK_TAG = "DownloadFileWorker"
   }
 }
